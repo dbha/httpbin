@@ -1,4 +1,4 @@
-FROM dbha/ubuntu:18.04
+FROM harborapp.dha-tkgdemo.net/library/ubuntu:18.04
 
 LABEL name="httpbin"
 LABEL version="0.9.2"
