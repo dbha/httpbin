@@ -5,7 +5,7 @@ LABEL version="0.9.2"
 LABEL description="A simple HTTP service."
 LABEL org.kennethreitz.vendor="Kenneth Reitz"
 
-RUN apt update -y && apt install python3-pip -y
+RUN apt-get update -y && apt-get install python3-pip -y
 
 EXPOSE 8080
 
